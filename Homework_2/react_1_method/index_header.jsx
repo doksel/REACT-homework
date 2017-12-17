@@ -1,8 +1,7 @@
-var React = require ('react');
 class Hello extends React.Component {
     constructor(props){
         super(props);
-        this.state = {class:'off',welcom: 'Hello, my friend!', label:'Нажми'};
+        this.state = {class:'off', welcom: 'Hello, my friend!', label:'Нажми'};
         this.press = this.press.bind(this);
     }
     press(){
